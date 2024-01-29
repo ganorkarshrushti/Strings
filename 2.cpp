@@ -7,7 +7,7 @@ int main(){
     char str[20];
     int len;
     cout<<"Enter an string:";
-    gets(str);
+    cin>>str;
     len=strlen(str);
     cout<<"Length of string is:"<<len;
     return 0;
