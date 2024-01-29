@@ -6,7 +6,7 @@ int main(){
         char str[50];
         int count=0,i;
         cout<<"Enter the string :";
-        gets(str);
+        cin>>str;
         for( i=0;  str[i]!='\0'; i++){
             if(str[i] == ' ')
                 count++ ;
