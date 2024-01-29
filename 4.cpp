@@ -1,6 +1,5 @@
 //to count the number of vowels, consonants, numbers, and special characters in that string
 #include <iostream>
-
 using namespace std;
 int main() {
     char str[50];
