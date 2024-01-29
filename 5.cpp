@@ -10,5 +10,4 @@ int main(){
      len =strlen(str);
      cout<<"Length of the string :"<<len ;
      return 0;
-
 }
