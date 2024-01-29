@@ -1,3 +1,4 @@
+//to find length of string
 #include<iostream>
 #include<string.h>
 using namespace std;
