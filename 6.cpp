@@ -14,7 +14,7 @@ int main(){
         return 0;
 }*/
 //Another method using strcat function:
-//strcat works with C character arrays, 
+//strcat works with C character arrays as datatype, 
 #include<iostream>
 #include<string.h>
 using namespace std;
@@ -38,7 +38,7 @@ int main(){
     cout<<"ENter string 2:";
     cin>>str2;
     str1.append(str2);
-    cout<<"Concanated string:"<<str1;
+    cout<<"Concatenated string:"<<str1;
     return 0;
 }
     
