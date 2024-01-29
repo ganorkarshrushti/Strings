@@ -18,7 +18,7 @@ int main(){
 #include<iostream>
 #include<string.h>
 using namespace std;
-int main(){
+/*int main(){
         char str1[20];
         char str2[20];
         int i;
@@ -29,4 +29,16 @@ int main(){
         strcat(str1, str2);
         cout<<"Concatenated string :"<<str1;
         return 0;
+}*/
+
+int main(){
+    string str1, str2;
+    cout<<"ENter string 1:";
+    cin>>str1;
+    cout<<"ENter string 2:";
+    cin>>str2;
+    str1.append(str2);
+    cout<<"Concanated string:"<<str1;
+    return 0;
 }
+    
