@@ -1,3 +1,4 @@
+//to Find if a String is Palindrome.
 #include <iostream>
 #include <string>
 #include <algorithm>
