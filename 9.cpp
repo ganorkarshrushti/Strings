@@ -38,6 +38,7 @@ using namespace std;
 }*/
 
 /*
+//Using Reverse Function
 #include<algorithm>
 int main(){
           string str;
@@ -68,4 +69,4 @@ int main(){
           return 0;
 }*/
 
-//Using Reverse Function
+
