@@ -1,4 +1,4 @@
-// to Reverse a String using For Loop
+// to Reverse a String using For Loop( can be done by using while loop too)
 #include<iostream>
 #include<string.h>
 using namespace std;
