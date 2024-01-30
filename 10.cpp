@@ -23,6 +23,7 @@ int main() {
     return 0;
 }*/
 
+//Using Function
 void PallindromeString(string str){
 
     string reversedstr =  str;
