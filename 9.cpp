@@ -18,7 +18,7 @@ using namespace std;
 }*/
 
 //Using While loop
-int main(){
+/*int main(){
          string str;
          int i=0,temp;
          
@@ -35,4 +35,15 @@ int main(){
         }
         cout << "\nReverse string : " << str<<endl;
         return 0;
+}*/
+
+#include<algorithm>
+int main(){
+          string str;
+          cout << "Enter a string: ";
+          cin>>str;
+          reverse(str.begin(),str.end());
+          cout<<"Reversed string:"<<str<<endl;
+          return 0;
 }
+
