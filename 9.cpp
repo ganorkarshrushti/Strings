@@ -48,7 +48,8 @@ int main(){
           return 0;
 }*/
 
-
+//using function
+/*
 void ReverseString(char str[], int start,int end){
         if(start >= end)
             return;
@@ -65,4 +66,6 @@ int main(){
           ReverseString(str, 0, len-1);
           cout<<"\nReverse string:"<<str;
           return 0;
-}
+}*/
+
+//Using Reverse Function
