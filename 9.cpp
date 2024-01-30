@@ -37,6 +37,7 @@ using namespace std;
         return 0;
 }*/
 
+/*
 #include<algorithm>
 int main(){
           string str;
@@ -45,5 +46,23 @@ int main(){
           reverse(str.begin(),str.end());
           cout<<"Reversed string:"<<str<<endl;
           return 0;
-}
+}*/
 
+
+void ReverseString(char str[], int start,int end){
+        if(start >= end)
+            return;
+        char temp=str[start];
+        str[start]=str[end];
+        str[end]=temp;
+        ReverseString(str, start+1, end-1);      
+}
+int main(){
+          char str[50];
+          cout<<"Enter a string:";
+          cin>>str;
+          int len=strlen(str);
+          ReverseString(str, 0, len-1);
+          cout<<"\nReverse string:"<<str;
+          return 0;
+}
